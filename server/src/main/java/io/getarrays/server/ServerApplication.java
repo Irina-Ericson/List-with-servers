@@ -34,6 +34,9 @@ public class ServerApplication {
 					"http://localhost:8080/server/image/server_3.jpg", SERVER_UP));
 			serverRepo.save(new Server(null, "192.168.1.14", "Ubuntu Linux", "32 GB", "Router",
 					"http://localhost:8080/server/image/server_4.jpg", SERVER_DOWN));
+			serverRepo.save(new Server(null, "192.168.1.18", "My Home Server", "32 GB", "Switcher",
+					"http://localhost:8080/server/image/server_4.jpg", SERVER_DOWN));
+
 
 
 		};
